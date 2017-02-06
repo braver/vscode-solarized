@@ -1,0 +1,26 @@
+{
+    "name": "theme-solarized-light",
+    "displayName": "Solarized Light",
+    "description": "Braver's Solarized Light ",
+    "version": "0.0.1",
+    "publisher": "Braver",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/braver/Solarized.git"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Braver's Solarized Light",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized (light).tmTheme"
+            }
+        ]
+    }
+}
