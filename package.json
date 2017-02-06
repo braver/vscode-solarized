@@ -6,7 +6,7 @@
     "publisher": "Braver",
     "repository": {
       "type": "git",
-      "url": "https://github.com/braver/Solarized.git"
+      "url": "https://github.com/braver/vscode-solarized.git"
     },
     "engines": {
         "vscode": "^1.5.0"
