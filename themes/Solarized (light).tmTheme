@@ -26,7 +26,7 @@
 				<key>lineHighlight</key>
 				<string>#3F3D3812</string>
 				<key>selection</key>
-				<string>#eee8d5</string>
+				<string>#93a1a140</string> <!-- base1 with opacity -->
 				<key>selectionBorder</key>
 				<string>#c0c4bb</string>
 
@@ -45,25 +45,29 @@
 				guide: Color of the guides displayed to indicate nesting levels.
 				-->
 
+				<!-- HEX opacity values
+				http://stackoverflow.com/questions/5445085/understanding-colors-in-android-6-characters/11019879#11019879
+				-->
+
 				<key>guide</key>
 				<string>#3F3D3812</string>
 				<key>activeLinkForeground</key>
 				<string>#268bd2</string>
 
 				<key>selectionHighlight</key> <!-- #2aa198 10% opacity -->
-				<string>#E8EEDC</string>
+				<string>#2aa1981A</string>
 				<key>hoverHighlight</key> <!-- #2aa198 10% opacity -->
-				<string>#E8EEDC</string>
+				<string>#2aa1981A</string>
 
 				<key>findMatchHighlight</key> <!-- #859900 20% opacity -->
-				<string>#E5E3B6</string>
+				<string>#85990033</string>
 				<key>currentFindMatchHighlight</key> <!-- #859900 30% opacity -->
-				<string>#D9DA9F</string>
+				<string>#8599004D</string>
 
 				<key>wordHighlight</key> <!-- #d33682 10% opacity -->
-				<string>#F9E3D9</string>
+				<string>#d336821A</string>
 				<key>wordHighlightStrong</key> <!-- #d33682 20% opacity -->
-				<string>#F5D0D0</string>
+				<string>#d3368233</string>
 
 			</dict>
 		</dict>
