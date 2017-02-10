@@ -3,7 +3,7 @@
     "displayName": "Braver's Solarized",
     "description": "Braver's Solarized theme for VS Code",
     "version": "0.0.1",
-    "publisher": "Koen Lageveen",
+    "publisher": "Braver",
     "repository": {
       "type": "git",
       "url": "https://github.com/braver/vscode-solarized.git"
