@@ -23,7 +23,7 @@
             },
             {
                 "label": "Braver's Solarized Dark",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./themes/Solarized (dark).tmTheme"
             }
         ]
