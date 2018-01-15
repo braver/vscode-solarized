@@ -1,35 +1,40 @@
 {
-    "name": "vscode-solarized",
-    "displayName": "Braver's Solarized",
-    "description": "The best Solarized theme for VS Code",
-    "version": "0.0.3",
-    "publisher": "Braver",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/braver/vscode-solarized.git"
-    },
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "logo.png",
-    "galleryBanner": {
-        "color": "#fdf6e3"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Braver's Solarized Light",
-                "uiTheme": "vs",
-                "path": "./themes/Solarized (light).tmTheme"
-            },
-            {
-                "label": "Braver's Solarized Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Solarized (dark).tmTheme"
-            }
-        ]
-    }
+	"name": "vscode-solarized",
+	"displayName": "Braver's Solarized",
+	"description": "The best Solarized theme for VS Code",
+	"version": "0.0.3",
+	"publisher": "Braver",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/braver/vscode-solarized.git"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#fdf6e3"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Braver's Solarized Light",
+				"uiTheme": "vs",
+				"path": "./themes/braver-solarized-light.json"
+			},
+			{
+				"label": "Braver's Solarized Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/braver-solarized-dark.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e8f08043-9121-4d44-bf6e-f941fc3a95c3",
+		"publisherDisplayName": "Koen Lageveen",
+		"publisherId": "c5ed45d8-f181-4ce7-9039-184e3955f4dd"
+	}
 }
