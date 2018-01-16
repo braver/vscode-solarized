@@ -23,12 +23,22 @@
 			{
 				"label": "Braver's Solarized Light",
 				"uiTheme": "vs",
-				"path": "./themes/braver-solarized-light.json"
+				"path": "./themes/braver-solarized-light-color-theme.json"
 			},
 			{
 				"label": "Braver's Solarized Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/braver-solarized-dark.json"
+				"path": "./themes/braver-solarized-dark-color-theme.json"
+			},
+			{
+				"label": "Braver's Solarized Light (themed workbench)",
+				"uiTheme": "vs",
+				"path": "./themes/braver-solarized-light-with-workbench-color-theme.json"
+			},
+			{
+				"label": "Braver's Solarized Dark (themed workbench)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
 			}
 		]
 	},
