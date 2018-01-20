@@ -1,8 +1,8 @@
 # Change 
 
-## 0.0.4
+## 2.0.0
 - Transition from tmTheme to json files
-- Added versions with themed workbench
+- Added workbench themes
 
 ## 0.0.1
 - The very first release
