@@ -824,19 +824,19 @@
       }
     },
     {
-      "name": "JavaScript Variables",
+      "name": "JS/TS Variables",
       "scope": [
-        "variable.other.readwrite.js",
-        "variable.other.object.js",
-        "variable.other.constant.js"
+        "variable.other.readwrite",
+        "variable.other.object",
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#839496"
       }
     },
     {
-      "name": "JavaScript Functions",
-      "scope": "variable.function.js",
+      "name": "JS/TS Functions",
+      "scope": "variable.function",
       "settings": {
         "foreground": "#b58900"
       }
@@ -849,10 +849,10 @@
       }
     },
     {
-      "name": "JavaScript Classes",
+      "name": "JS/TS Classes",
       "scope": [
-        "variable.language.this.js",
-        "variable.language.super.js"
+        "variable.language.this",
+        "variable.language.super"
       ],
       "settings": {
         "foreground": "#d33682"
