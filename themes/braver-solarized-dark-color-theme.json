@@ -70,6 +70,35 @@
         "foreground": "#268bd2"
       }
     },
+    // The following three work for javascript, typescript, and other similar languages
+    {
+      "name": "Special Variables",
+      "scope": [
+        "variable.other.readwrite",
+        "variable.other.object",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#839496"
+      }
+    },
+    {
+      "name": "Functions as variables",
+      "scope": "variable.function",
+      "settings": {
+        "foreground": "#b58900"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#d33682"
+      }
+    },
     {
       "name": "Keyword",
       "scope": "keyword",
@@ -824,38 +853,10 @@
       }
     },
     {
-      "name": "JavaScript Variables",
-      "scope": [
-        "variable.other.readwrite.js",
-        "variable.other.object.js",
-        "variable.other.constant.js"
-      ],
-      "settings": {
-        "foreground": "#839496"
-      }
-    },
-    {
-      "name": "JavaScript Functions",
-      "scope": "variable.function.js",
-      "settings": {
-        "foreground": "#b58900"
-      }
-    },
-    {
       "name": "JavaScript punctation inside class",
       "scope": "meta.class punctuation",
       "settings": {
         "foreground": "#839496"
-      }
-    },
-    {
-      "name": "JavaScript Classes",
-      "scope": [
-        "variable.language.this.js",
-        "variable.language.super.js"
-      ],
-      "settings": {
-        "foreground": "#d33682"
       }
     }
   ],
