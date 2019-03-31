@@ -1,6 +1,29 @@
 {
   "name": "Solarized (dark)",
-  "tokenColors": [
+  "settings": [
+    {
+      "settings": {
+        "caret": "#eee8d5",
+        "foreground": "#839496",
+        "gutter": "#073642",
+        "invisibles": "#586e75",
+        "lineHighlight": "#1CD1FF12",
+        "selection": "#586e7559",
+        "inactiveSelection": "#586e7540",
+        "selectionBorder": "#586e75",
+        "guide": "#1CD1FF12",
+        "activeLinkForeground": "#268bd2",
+        "selectionHighlight": "#2aa19826",
+        "hoverHighlight": "#2aa19826",
+        "findMatchHighlight": "#85990033",
+        "currentFindMatchHighlight": "#85990059",
+        "wordHighlight": "#6c71c433",
+        "wordHighlightStrong": "#6c71c44D",
+        "referenceHighlight": "#6c71c466",
+        "rangeHighlight": "#6c71c41A",
+        "findRangeHighlight": "#6c71c433"
+      }
+    },
     {
       "name": "Comment",
       "scope": [
@@ -237,7 +260,7 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "foreground": "#6e2e32"
+        "background": "#6e2e32"
       }
     },
     {
@@ -709,7 +732,7 @@
       "name": "Markdown linebreak",
       "scope": "meta.paragraph.markdown meta.dummy.line-break",
       "settings": {
-        "foreground": "#586e75"
+        "background": "#586e75"
       }
     },
     {
@@ -730,7 +753,7 @@
       "name": "SublimeLinter Error Underline",
       "scope": "sublimelinter.underline.illegal",
       "settings": {
-        "foreground": "#dc322f"
+        "background": "#dc322f"
       }
     },
     {
@@ -744,7 +767,7 @@
       "name": "SublimeLinter Warning Underline",
       "scope": "sublimelinter.underline.warning",
       "settings": {
-        "foreground": "#b58900"
+        "background": "#b58900"
       }
     },
     {
@@ -758,7 +781,7 @@
       "name": "SublimeLinter Violation Underline",
       "scope": "sublimelinter.underline.violation",
       "settings": {
-        "foreground": "#cb4b16"
+        "background": "#cb4b16"
       }
     },
     {
@@ -832,100 +855,5 @@
       }
     }
   ],
-  "colors": {
-    "focusBorder": "#2AA19899",
-    "selection.background": "#2AA19899",
-    "input.background": "#003847",
-    "input.foreground": "#93A1A1",
-    "input.placeholderForeground": "#93A1A1AA",
-    "inputOption.activeBorder": "#2AA19899",
-    "inputValidation.infoBorder": "#363b5f",
-    "inputValidation.infoBackground": "#052730",
-    "inputValidation.warningBackground": "#5d5938",
-    "inputValidation.warningBorder": "#9d8a5e",
-    "inputValidation.errorBackground": "#571b26",
-    "inputValidation.errorBorder": "#a92049",
-    "errorForeground": "#ffeaea",
-    "badge.background": "#047aa6",
-    "progressBar.background": "#047aa6",
-    "dropdown.background": "#00212B",
-    "dropdown.border": "#2AA19899",
-    "button.background": "#2AA19899",
-    "list.activeSelectionBackground": "#005A6F",
-    "list.focusBackground": "#005A6F",
-    "list.hoverBackground": "#004454AA",
-    "list.inactiveSelectionBackground": "#00445488",
-    "list.dropBackground": "#00445488",
-    "list.highlightForeground": "#1ebcc5",
-    "editor.background": "#002B36",
-    "editor.foreground": "#839496",
-    "editorWidget.background": "#00212B",
-    "editorCursor.foreground": "#D30102",
-    "editorWhitespace.foreground": "#586e75",
-    "editor.lineHighlightBackground": "#1CD1FF12",
-    "editor.selectionBackground": "#586e7559",
-    "editorIndentGuide.background": "#1CD1FF12",
-    "editorHoverWidget.background": "#004052",
-    "editorMarkerNavigationError.background": "#AB395B",
-    "editorMarkerNavigationWarning.background": "#5B7E7A",
-    "editorLink.activeForeground": "#268bd2",
-    "editor.findMatchBackground": "#85990059",
-    "editor.findMatchHighlightBackground": "#85990033",
-    "editor.findRangeHighlightBackground": "#6c71c433",
-    "editor.hoverHighlightBackground": "#2aa19826",
-    "editor.inactiveSelectionBackground": "#586e7540",
-    "editor.rangeHighlightBackground": "#6c71c41A",
-    "editor.selectionHighlightBackground": "#2aa19826",
-    "editor.wordHighlightBackground": "#6c71c433",
-    "editor.wordHighlightStrongBackground": "#6c71c466",
-    "peekViewResult.background": "#00212B",
-    "peekViewEditor.background": "#10192c",
-    "peekViewTitle.background": "#00212B",
-    "peekView.border": "#2b2b4a",
-    "peekViewEditor.matchHighlightBackground": "#7744AA40",
-    "titleBar.activeBackground": "#002C39",
-    "editorGroup.border": "#00212B",
-    "editorGroup.emptyBackground": "#011b23",
-    "editorGroup.dropBackground": "#2AA19844",
-    "editorGroupHeader.tabsBackground": "#004052",
-    "tab.activeForeground": "#d6dbdb",
-    "tab.activeBackground": "#002B37",
-    "tab.inactiveForeground": "#93A1A1",
-    "tab.inactiveBackground": "#004052",
-    "tab.border": "#003847",
-    "activityBar.background": "#003847",
-    "panel.border": "#2b2b4a",
-    "sideBar.background": "#00212B",
-    "sideBarTitle.foreground": "#93A1A1",
-    "statusBar.foreground": "#93A1A1",
-    "statusBar.background": "#00212B",
-    "statusBar.debuggingBackground": "#00212B",
-    "statusBar.noFolderBackground": "#00212B",
-    "statusBarItem.prominentBackground": "#003847",
-    "statusBarItem.prominentHoverBackground": "#003847",
-    "debugToolBar.background": "#00212B",
-    "debugExceptionWidget.background": "#00212B",
-    "debugExceptionWidget.border": "#AB395B",
-    "pickerGroup.foreground": "#2AA19899",
-    "pickerGroup.border": "#2AA19899",
-    "terminal.background": "#002b36",
-    "terminal.foreground": "#839496",
-    "terminal.ansiBlack": "#073642",
-    "terminal.ansiRed": "#dc322f",
-    "terminal.ansiGreen": "#859900",
-    "terminal.ansiYellow": "#b58900",
-    "terminal.ansiBlue": "#268bd2",
-    "terminal.ansiMagenta": "#d33682",
-    "terminal.ansiCyan": "#2aa198",
-    "terminal.ansiWhite": "#eee8d5",
-    "terminal.ansiBrightBlack": "#002b36",
-    "terminal.ansiBrightRed": "#cb4b16",
-    "terminal.ansiBrightGreen": "#586e75",
-    "terminal.ansiBrightYellow": "#657b83",
-    "terminal.ansiBrightBlue": "#839496",
-    "terminal.ansiBrightMagenta": "#6c71c4",
-    "terminal.ansiBrightCyan": "#93a1a1",
-    "terminal.ansiBrightWhite": "#fdf6e3"
-  },
   "uuid": "5815b34d-fb7d-4593-bf0c-4f41f8b1f0a9"
 }

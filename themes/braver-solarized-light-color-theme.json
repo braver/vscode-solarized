@@ -3,7 +3,6 @@
   "settings": [
     {
       "settings": {
-        "background": "#fdf6e3",
         "caret": "#073642",
         "foreground": "#657b83",
         "gutter": "#eee8d5",
@@ -683,7 +682,7 @@
       }
     },
     {
-      "Name": "Markdown heading",
+      "name": "Markdown heading",
       "scope": [
         "markup.heading",
         "punctuation.definition.heading.markdown"
@@ -707,14 +706,14 @@
       }
     },
     {
-      "Name": "Markdown strong",
+      "name": "Markdown strong",
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
-      "Name": "Markdown reference",
+      "name": "Markdown reference",
       "scope": [
         "markup.underline.link.markdown",
         "meta.link.reference constant.other.reference.link.markdown"
@@ -724,14 +723,14 @@
       }
     },
     {
-      "Name": "Markdown reference list",
+      "name": "Markdown reference list",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
         "foreground": "#6c71c4"
       }
     },
     {
-      "Name": "Markdown linebreak",
+      "name": "Markdown linebreak",
       "scope": "meta.paragraph.markdown meta.dummy.line-break",
       "settings": {
         "background": "#eee8d5"
@@ -741,7 +740,6 @@
       "name": "SublimeLinter Annotations",
       "scope": "sublimelinter.notes",
       "settings": {
-        "background": "#eee8d5",
         "foreground": "#eee8d5"
       }
     },
@@ -749,7 +747,6 @@
       "name": "SublimeLinter Error Outline",
       "scope": "sublimelinter.outline.illegal",
       "settings": {
-        "background": "#93a1a1",
         "foreground": "#93a1a1"
       }
     },
@@ -764,7 +761,6 @@
       "name": "SublimeLinter Warning Outline",
       "scope": "sublimelinter.outline.warning",
       "settings": {
-        "background": "#839496",
         "foreground": "#839496"
       }
     },
@@ -779,7 +775,6 @@
       "name": "SublimeLinter Violation Outline",
       "scope": "sublimelinter.outline.violation",
       "settings": {
-        "background": "#657b83",
         "foreground": "#657b83"
       }
     },

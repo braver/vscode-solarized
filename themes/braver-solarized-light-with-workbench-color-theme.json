@@ -2,14 +2,6 @@
   "name": "Solarized (light)",
   "tokenColors": [
     {
-      "settings": {
-        "caret": "#073642",
-        "foreground": "#657b83",
-        "gutter": "#eee8d5",
-        "referenceHighlight": "#d336824D"
-      }
-    },
-    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -245,7 +237,7 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#ec9489"
+        "foreground": "#ec9489"
       }
     },
     {
@@ -666,7 +658,7 @@
       }
     },
     {
-      "Name": "Markdown heading",
+      "name": "Markdown heading",
       "scope": [
         "markup.heading",
         "punctuation.definition.heading.markdown"
@@ -690,14 +682,14 @@
       }
     },
     {
-      "Name": "Markdown strong",
+      "name": "Markdown strong",
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
-      "Name": "Markdown reference",
+      "name": "Markdown reference",
       "scope": [
         "markup.underline.link.markdown",
         "meta.link.reference constant.other.reference.link.markdown"
@@ -707,24 +699,23 @@
       }
     },
     {
-      "Name": "Markdown reference list",
+      "name": "Markdown reference list",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
         "foreground": "#6c71c4"
       }
     },
     {
-      "Name": "Markdown linebreak",
+      "name": "Markdown linebreak",
       "scope": "meta.paragraph.markdown meta.dummy.line-break",
       "settings": {
-        "background": "#eee8d5"
+        "foreground": "#eee8d5"
       }
     },
     {
       "name": "SublimeLinter Annotations",
       "scope": "sublimelinter.notes",
       "settings": {
-        "background": "#eee8d5",
         "foreground": "#eee8d5"
       }
     },
@@ -732,7 +723,6 @@
       "name": "SublimeLinter Error Outline",
       "scope": "sublimelinter.outline.illegal",
       "settings": {
-        "background": "#93a1a1",
         "foreground": "#93a1a1"
       }
     },
@@ -740,14 +730,13 @@
       "name": "SublimeLinter Error Underline",
       "scope": "sublimelinter.underline.illegal",
       "settings": {
-        "background": "#dc322f"
+        "foreground": "#dc322f"
       }
     },
     {
       "name": "SublimeLinter Warning Outline",
       "scope": "sublimelinter.outline.warning",
       "settings": {
-        "background": "#839496",
         "foreground": "#839496"
       }
     },
@@ -755,14 +744,13 @@
       "name": "SublimeLinter Warning Underline",
       "scope": "sublimelinter.underline.warning",
       "settings": {
-        "background": "#b58900"
+        "foreground": "#b58900"
       }
     },
     {
       "name": "SublimeLinter Violation Outline",
       "scope": "sublimelinter.outline.violation",
       "settings": {
-        "background": "#657b83",
         "foreground": "#657b83"
       }
     },
@@ -770,7 +758,7 @@
       "name": "SublimeLinter Violation Underline",
       "scope": "sublimelinter.underline.violation",
       "settings": {
-        "background": "#cb4b16"
+        "foreground": "#cb4b16"
       }
     },
     {
@@ -863,6 +851,7 @@
     "list.inactiveSelectionBackground": "#D1CBB8",
     "list.highlightForeground": "#B58900",
     "editor.background": "#FDF6E3",
+    "editor.foreground": "#657b83",
     "editorWidget.background": "#EEE8D5",
     "editorCursor.foreground": "#657B83",
     "editorWhitespace.foreground": "#eee8d5",
@@ -887,7 +876,7 @@
     "peekViewEditor.matchHighlightBackground": "#7744AA40",
     "titleBar.activeBackground": "#EEE8D5",
     "editorGroup.border": "#DDD6C1",
-    "editorGroup.background": "#FFFBF2",
+    "editorGroup.emptyBackground": "#FFFBF2",
     "editorGroup.dropBackground": "#DDD6C1AA",
     "editorGroupHeader.tabsBackground": "#D9D2C2",
     "tab.border": "#DDD6C1",
@@ -910,7 +899,6 @@
     "debugToolBar.background": "#DDD6C1",
     "debugExceptionWidget.background": "#DDD6C1",
     "debugExceptionWidget.border": "#AB395B",
-    "notification.background": "#999178",
     "pickerGroup.border": "#2AA19899",
     "pickerGroup.foreground": "#2AA19899",
     "extensionButton.prominentBackground": "#b58900",
