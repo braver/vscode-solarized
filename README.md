@@ -8,3 +8,6 @@ This version of Solarized is based on [Braver's](https://github.com/braver) popu
 
 ## Theme Versions
 There are four versions included. "Braver's Solarized Light" and "Braver's Solarized Dark" theme the editor, but keep the standard VSCode dark and light themes for the workbench, respectively. "Braver's Solarized Light (themed workbench)" and "Braver's Solarized Dark (themed workbench)" use the same editor theme, but use the workbench themes provided by the default VSCode solarized themes.
+
+## Thank You to...
+sdras on Github for the folder of demos in their Night Owl theme that make testing so much easier
