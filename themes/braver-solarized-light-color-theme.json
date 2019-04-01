@@ -3,6 +3,7 @@
   "settings": [
     {
       "settings": {
+        "background": "#FDF6E3",
         "caret": "#073642",
         "foreground": "#657b83",
         "gutter": "#eee8d5",
