@@ -39,6 +39,16 @@
                 "label": "Braver's Solarized Dark (themed workbench)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
+            },
+            {
+                "label": "Braver's Solarized Light (pure Solarized workbench)",
+                "uiTheme": "vs",
+                "path": "./themes/braver-solarized-light-from-variables-color-theme.json"
+            },
+            {
+                "label": "Braver's Solarized Dark (pure Solarized workbench)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/braver-solarized-dark-from-variables-color-theme.json"
             }
         ]
     }

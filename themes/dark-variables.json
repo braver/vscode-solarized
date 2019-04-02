@@ -1,0 +1,30 @@
+{
+    "Comments": [
+        "These are the default solarized replacements.",
+        "Except that the base0? and base? colors have",
+        "been switched. This should make it a dark",
+        "theme with the same theme-with-variables starter.",
+        "Some additional variables have been added for",
+        "non-solarized elements in the UI."
+    ],
+    "variables": {
+        "base4": "#00212b",
+        "base3": "#002b36",
+        "base2": "#073642",
+        "base1": "#586e75",
+        "base0": "#657b83",
+        "base00": "#839496",
+        "base01": "#93a1a1",
+        "base02": "#eee8d5",
+        "base03": "#fdf6e3",
+        "base04": "#ddd6c1",
+        "yellow": "#b58900",
+        "orange": "#cb4b16",
+        "red": "#dc322f",
+        "magenta": "#d33682",
+        "violet": "#6c71c4",
+        "blue": "#268bd2",
+        "cyan": "#2aa198",
+        "green": "#859900"
+    }
+}
