@@ -1,5 +1,8 @@
 # Change 
 
+## 2.1.0
+- Changed the build system to allow for easier addition of new rules. Updated with many new rules to match Sublime.
+
 ## 2.0.2
 - Bug fixes for text colors
 

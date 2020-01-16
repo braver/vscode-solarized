@@ -1,0 +1,875 @@
+{
+    "CommentToReader": [
+        "These are the token colors and workbench colors using variables.",
+        "They are based on braver's Solarized for sublime",
+        "The variable names match solarized for LIGHT",
+        "See the light-variables and dark-variables.json",
+        "files to understand how to replace them to make",
+        "dark and light tokens.",
+        "Edit this to change BOTH FILES, then use the replacement",
+        "schemes to actually replace the colors.",
+        "(I should probably write a script to do this.)",
+        "Only copy the token colors into the older themes, but all colors into the 'variable' ones."
+    ],
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "meta.documentation"
+            ],
+            "settings": {
+                "foreground": "var(base1)"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Regexp",
+            "scope": "string.regexp",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Escape \\ char",
+            "scope": "constant.character.escape",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "var(violet)"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "Variable Function",
+            "scope": "variable.function",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Variable Language",
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "var(magenta)"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Import",
+            "scope": [
+                "meta.import keyword",
+                "keyword.control.import",
+                " keyword.control.import.from",
+                "keyword.other.import",
+                "keyword.control.at-rule.include",
+                "keyword.control.at-rule.import"
+            ],
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Assignment, Comparision Operators",
+            "scope": [
+                "keyword.operator.comparison",
+                "keyword.operator.assignment"
+            ],
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        },
+        {
+            "name": "Arithmetical Operators",
+            "scope": "keyword.operator.arithmetic",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "settings": {
+                "foreground": "var(base01)"
+            }
+        },
+        {
+            "name": "Class",
+            "scope": [
+                "keyword.control.class",
+                "entity.name",
+                "entity.name.class",
+                "entity.name.type.class"
+            ],
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Inherited Class",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "Attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Library class",
+            "scope": [
+                "support",
+                "support.type",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Variable start",
+            "scope": "punctuation.definition.variable",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Built-in constant",
+            "scope": [
+                "constant",
+                "constant.language",
+                "meta.preprocessor"
+            ],
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "scope": "entity.name.section",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Support.construct",
+            "scope": [
+                "support.function.construct",
+                "keyword.other.new"
+            ],
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "User-defined constant",
+            "scope": [
+                "constant.character",
+                "constant.other"
+            ],
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "Tag start/end",
+            "scope": [
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin",
+                "punctuation.definition.tag.end"
+            ],
+            "settings": {
+                "foreground": "var(base1)"
+            }
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Continuation",
+            "scope": "punctuation.separator.continuation",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Storage Type",
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "Exception",
+            "scope": "support.type.exception",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Special",
+            "scope": "keyword.other.special-method",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                //"background": "color(var(red) blend(var(base3) 30%))"
+            }
+        },
+        {
+            "name": "Quoted String",
+            "scope": [
+                "string.quoted.double",
+                "string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Quotes",
+            "scope": "punctuation.definition.string",
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        },
+        {
+            "name": "[]",
+            "scope": [
+                "meta.brace.square",
+                "punctuation.section.brackets"
+            ],
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "(),{}",
+            "scope": [
+                "meta.brace.round",
+                "meta.brace.curly",
+                "punctuation.section",
+                "punctuation.section.block",
+                "punctuation.definition.parameters",
+                "punctuation.section.group"
+            ],
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        },
+        {
+            "name": "CSS: Standard color value",
+            "scope": [
+                "support.constant.color",
+                "invalid.deprecated.color.w3c-non-standard-color-name.scss"
+            ],
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "CSS: Selector > [] and non-spec tags",
+            "scope": "meta.selector.css",
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        },
+        {
+            "name": "CSS: Tag",
+            "scope": [
+                "entity.name.tag.css",
+                "entity.name.tag.scss",
+                "source.less keyword.control.html.elements",
+                "source.sass keyword.control.untitled"
+            ],
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "CSS .class",
+            "scope": "entity.other.attribute-name.class",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "CSS: #id",
+            "scope": "entity.other.attribute-name.id",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "CSS :pseudo",
+            "scope": [
+                "entity.other.attribute-name.pseudo-element",
+                "entity.other.attribute-name.tag.pseudo-element",
+                "entity.other.attribute-name.pseudo-class",
+                "entity.other.attribute-name.tag.pseudo-class"
+            ],
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "CSS: @-rule",
+            "scope": "keyword.control.at-rule",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Haskell: Variable",
+            "scope": "source.haskell variable",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "HTML: =",
+            "scope": [
+                "text.html.basic meta.tag.other.html",
+                "text.html.basic meta.tag.any.html",
+                "text.html.basic meta.tag.block.any",
+                "text.html.basic meta.tag.inline.any",
+                "text.html.basic meta.tag.structure.any.html",
+                "text.html.basic source.js.embedded.html, punctuation.separator.key-value.html"
+            ],
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        },
+        {
+            "name": "HTML: something=",
+            "scope": [
+                "text.html.basic entity.other.attribute-name.html",
+                "meta.tag.xml entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Ruby: Special Method",
+            "scope": "keyword.other.special-method.ruby",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Ruby: Constant Other",
+            "scope": "variable.other.constant.ruby",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Ruby: :symbol",
+            "scope": "constant.other.symbol.ruby",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Ruby: Special Method",
+            "scope": "keyword.other.special-method.ruby",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "PHP: Array()",
+            "scope": "meta.array support.function.construct.php",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "C: Preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor.c",
+                "meta.preprocessor.c.include",
+                "meta.preprocessor.macro.c"
+            ],
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "C: include",
+            "scope": [
+                "meta.preprocessor.c.include string.quoted.other.lt-gt.include.c",
+                "meta.preprocessor.c.include punctuation.definition.string.begin.c",
+                "meta.preprocessor.c.include punctuation.definition.string.end.c"
+            ],
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Other: Removal",
+            "scope": [
+                "other.package.exclude",
+                "other.remove"
+            ],
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Other: Add",
+            "scope": "other.add",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Tex: {}",
+            "scope": [
+                "punctuation.section.group.tex",
+                "punctuation.definition.arguments.begin.latex",
+                "punctuation.definition.arguments.end.latex",
+                "punctuation.definition.arguments.latex"
+            ],
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Tex: {text}",
+            "scope": "meta.group.braces.tex",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Tex: Other Math",
+            "scope": "string.other.math.tex",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Tex: {var}",
+            "scope": "variable.parameter.function.latex",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Tex: Math \\\\",
+            "scope": "punctuation.definition.constant.math.tex",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Tex: Constant Math",
+            "scope": [
+                "text.tex.latex constant.other.math.tex",
+                "constant.other.general.math.tex",
+                "constant.other.general.math.tex",
+                "constant.character.math.tex"
+            ],
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Tex: Other Math String",
+            "scope": "string.other.math.tex",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Tex: $",
+            "scope": [
+                "punctuation.definition.string.begin.tex",
+                "punctuation.definition.string.end.tex"
+            ],
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Tex: \\label",
+            "scope": [
+                "keyword.control.label.latex",
+                "text.tex.latex constant.other.general.math.tex"
+            ],
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Tex: \\label { }",
+            "scope": "variable.parameter.definition.label.latex",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Tex: Function",
+            "scope": "support.function.be.latex",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Tex: Support Function Section",
+            "scope": "support.function.section.latex",
+            "settings": {
+                "foreground": "var(orange)"
+            }
+        },
+        {
+            "name": "Tex: Support Function",
+            "scope": "support.function.general.tex",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Tex: Reference Label",
+            "scope": "keyword.control.ref.latex",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Python: storage",
+            "scope": [
+                "storage.type.class.python",
+                "storage.type.function.python",
+                "storage.modifier.global.python"
+            ],
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Python: Support.exception",
+            "scope": "support.type.exception.python",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Shell: meta scope in loop",
+            "scope": [
+                "meta.scope.for-in-loop.shell",
+                "variable.other.loop.shell"
+            ],
+            "settings": {
+                "foreground": "var(base01)"
+            }
+        },
+        {
+            "name": "Shell: Meta Block",
+            "scope": [
+                "meta.scope.case-block.shell",
+                "meta.scope.case-body.shell"
+            ],
+            "settings": {
+                "foreground": "var(base01)"
+            }
+        },
+        {
+            "name": "Shell: []",
+            "scope": "punctuation.definition.logical-expression.shell",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage.modifier.c++",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Perl: functions",
+            "scope": "support.function.perl",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "diff: header",
+            "scope": [
+                "meta.diff",
+                "meta.diff.header"
+            ],
+            "settings": {
+                "foreground": "var(base1)"
+            }
+        },
+        {
+            "name": "diff: range",
+            "scope": "meta.diff.range",
+            "settings": {
+                "foreground": "var(blue)"
+            }
+        },
+        {
+            "name": "diff: deleted",
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "diff: changed",
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "diff: inserted",
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Warning",
+            "scope": "markup.warning",
+            "settings": {
+                "foreground": "var(yellow)"
+            }
+        },
+        {
+            "name": "Error",
+            "scope": "markup.error",
+            "settings": {
+                "foreground": "var(red)"
+            }
+        },
+        {
+            "name": "Markdown Heading",
+            "scope": [
+                "markup.heading",
+                "punctuation.definition.heading.markdown"
+            ],
+            "settings": {
+                "foreground": "var(yellow)",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown quote",
+            "scope": "markup.quote",
+            "settings": {
+                "foreground": "var(green)"
+            }
+        },
+        {
+            "name": "Markdown em",
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "markup.underline.link.markdown",
+                "meta.link.reference constant.other.reference.link.markdown"
+            ],
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "scope": "constant.other.reference.link.markdown",
+            "settings": {
+                "foreground": "var(violet)"
+            }
+        },
+        {
+            "scope": "meta.paragraph.markdown meta.dummy.line-break",
+            "settings": {
+                //"background": "var(base1)"
+            }
+        },
+        {
+            "name": "SublimeBracketHighlighter",
+            "scope": "brackethighlighter.all",
+            "settings": {
+                "foreground": "var(base1)"
+            }
+        },
+        {
+            "name": "Find In Files: File Name",
+            "scope": "entity.name.filename.find-in-files",
+            "settings": {
+                "foreground": "var(cyan)"
+            }
+        },
+        {
+            "name": "Find In Files: Line numbers",
+            "scope": "constant.numeric.line-number.find-in-files",
+            "settings": {
+                "foreground": "var(base1)"
+            }
+        },
+        {
+            "name": "JavaScript and Typescript Variables",
+            "scope": "variable.other.readwrite, variable.other.object, variable.other.constant",
+            "settings": {
+                "foreground": "var(base00)"
+            }
+        }
+    ],
+    "colors": {
+        "focusBorder": "var(base1)",
+        "input.background": "var(base4)",
+        "input.foreground": "var(base01)",
+        "input.placeholderForeground": "var(base01)AA",
+        "inputOption.activeBorder": "var(base1)",
+        "badge.background": "var(yellow)AA",
+        "progressBar.background": "var(yellow)",
+        "dropdown.background": "var(base2)",
+        "dropdown.border": "var(base1)",
+        "button.background": "var(base1)aa",
+        "selection.background": "var(base2)",
+        "list.activeSelectionBackground": "var(base1)aa",
+        "list.activeSelectionForeground": "var(base01)",
+        "list.focusBackground": "var(base3)",
+        "list.hoverBackground": "var(base3)aa",
+        "list.inactiveSelectionBackground": "var(base1)30",
+        "list.highlightForeground": "var(yellow)",
+        "editor.background": "var(base3)",
+        "editor.foreground": "var(base00)",
+        "editorWidget.background": "var(base2)",
+        "editorCursor.foreground": "var(base00)",
+        "editorWhitespace.foreground": "var(base2)",
+        "editor.lineHighlightBackground": "var(base1)20",
+        "editor.selectionBackground": "var(base1)40",
+        "editorIndentGuide.background": "var(base1)40",
+        "editorHoverWidget.background": "var(base1)",
+        "editorLink.activeForeground": "var(blue)",
+        "editor.findMatchHighlightBackground": "var(green)33",
+        "editor.findMatchBackground": "var(green)4D",
+        "editor.findRangeHighlightBackground": "var(violet)33",
+        "editor.hoverHighlightBackground": "var(cyan)1A",
+        "editor.inactiveSelectionBackground": "var(base1)26",
+        "editor.rangeHighlightBackground": "var(violet)1A",
+        "editor.selectionHighlightBackground": "var(cyan)1A",
+        "editor.wordHighlightBackground": "var(magenta)1A",
+        "editor.wordHighlightStrongBackground": "var(magenta)33",
+        "peekViewResult.background": "var(base2)",
+        "peekViewEditor.background": "var(base3)",
+        "peekView.border": "var(yellow)",
+        "peekViewEditor.matchHighlightBackground": "var(violet)40",
+        "titleBar.activeBackground": "var(base4)",
+        "editorGroup.border": "var(base01)50",
+        "editorGroup.emptyBackground": "var(base3)",
+        "editorGroup.dropBackground": "var(base4)AA",
+        "editorGroupHeader.tabsBackground": "var(base4)",
+        "tab.border": "var(base01)20",
+        "tab.activeBackground": "var(base3)",
+        "tab.inactiveForeground": "var(base01)",
+        "tab.inactiveBackground": "var(base4)dd",
+        "activityBar.background": "var(base4)",
+        "activityBar.foreground": "var(base01)",
+        "activityBar.dropBackground": "var(base2)",
+        "activityBarBadge.background": "var(yellow)",
+        "panel.border": "var(base4)",
+        "sideBar.background": "var(base2)",
+        "sideBarTitle.foreground": "var(base01)",
+        "statusBar.foreground": "var(base01)",
+        "statusBar.background": "var(base2)",
+        "statusBar.debuggingBackground": "var(base2)",
+        "statusBar.noFolderBackground": "var(base2)",
+        "statusBarItem.prominentBackground": "var(base4)",
+        "statusBarItem.prominentHoverBackground": "var(base4)99",
+        "debugToolBar.background": "var(base4)",
+        "debugExceptionWidget.background": "var(base4)",
+        "debugExceptionWidget.border": "var(base1)",
+        "pickerGroup.border": "var(cyan)99",
+        "pickerGroup.foreground": "var(cyan)99",
+        "extensionButton.prominentBackground": "var(yellow)",
+        "extensionButton.prominentHoverBackground": "var(yellow)aa",
+        "terminal.ansiBlack": "var(base02)",
+        "terminal.ansiRed": "var(red)",
+        "terminal.ansiGreen": "var(green)",
+        "terminal.ansiYellow": "var(yellow)",
+        "terminal.ansiBlue": "var(blue)",
+        "terminal.ansiMagenta": "var(magenta)",
+        "terminal.ansiCyan": "var(cyan)",
+        "terminal.ansiWhite": "var(base2)",
+        "terminal.ansiBrightBlack": "var(base01)",
+        "terminal.ansiBrightRed": "var(orange)",
+        "terminal.ansiBrightGreen": "var(base01)",
+        "terminal.ansiBrightYellow": "var(base00)",
+        "terminal.ansiBrightBlue": "var(base0)",
+        "terminal.ansiBrightMagenta": "var(violet)",
+        "terminal.ansiBrightCyan": "var(base1)",
+        "terminal.ansiBrightWhite": "var(base2)"
+    }
+}
