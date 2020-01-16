@@ -3,9 +3,7 @@
         "These are the default solarized replacements.",
         "Except that the base0? and base? colors have",
         "been switched. This should make it a dark",
-        "theme with the same theme-with-variables starter.",
-        "Some additional variables have been added for",
-        "non-solarized elements in the UI."
+        "theme with the same theme-with-variables starter."
     ],
     "variables": {
         "base4": "#00212b",

@@ -2,7 +2,7 @@
     "name": "vscode-solarized",
     "displayName": "Braver's Solarized",
     "description": "The best Solarized theme for VS Code",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "publisher": "Braver",
     "repository": {
         "type": "git",
@@ -21,32 +21,32 @@
     "contributes": {
         "themes": [
             {
-                "label": "Braver's Solarized Light",
+                "label": "Braver's Solarized Light testing",
                 "uiTheme": "vs",
                 "path": "./themes/braver-solarized-light-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Dark",
+                "label": "Braver's Solarized Dark testing",
                 "uiTheme": "vs-dark",
                 "path": "./themes/braver-solarized-dark-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Light (themed workbench)",
+                "label": "Braver's Solarized Light (themed workbench) testing",
                 "uiTheme": "vs",
                 "path": "./themes/braver-solarized-light-with-workbench-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Dark (themed workbench)",
+                "label": "Braver's Solarized Dark (themed workbench) testing",
                 "uiTheme": "vs-dark",
                 "path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Light (pure Solarized workbench)",
+                "label": "Braver's Solarized Light (pure Solarized workbench) testing",
                 "uiTheme": "vs",
                 "path": "./themes/braver-solarized-light-from-variables-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Dark (pure Solarized workbench)",
+                "label": "Braver's Solarized Dark (pure Solarized workbench) testing",
                 "uiTheme": "vs-dark",
                 "path": "./themes/braver-solarized-dark-from-variables-color-theme.json"
             }
