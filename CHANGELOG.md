@@ -1,4 +1,7 @@
-# Change 
+# Change
+
+## 2.1.0
+- Various improvements
 
 ## 2.0.2
 - Bug fixes for text colors
