@@ -1,3 +1,4 @@
+// https://code.visualstudio.com/api/references/theme-color
 {
   "name": "Solarized (light)",
   "tokenColors": [
@@ -721,12 +722,19 @@
     }
   ],
   "colors": {
+    "foreground": "#584c27",
+    "disabledForeground": "#657b83",
+
     "activityBar.background": "#DDD6C1",
     "activityBar.foreground": "#584c27",
-    "activityBarBadge.background": "#B58900",
+    "activityBar.inactiveForeground": "#584c2750",
+    "activityBarBadge.background": "#584c27",
+    "activityBarBadge.foreground": "#EEE8D5",
 
-    "badge.background": "#B58900AA",
-    "button.background": "#AC9D57",
+    "badge.background": "#584c27",
+    "badge.foreground": "#EEE8D5",
+    "button.background": "#B58900",
+    "button.foreground": "#EEE8D5",
 
     "debugExceptionWidget.background": "#DDD6C1",
     "debugExceptionWidget.border": "#AB395B",
@@ -800,14 +808,24 @@
     "sideBar.background": "#EEE8D5",
     "sideBarTitle.foreground": "#586E75",
 
+    "sideBarSectionHeader.background": "#DDD6C1",
+
     "statusBar.focusBorder": "#B58900",
-    "statusBar.background": "#EEE8D5",
-    "statusBar.foreground": "#586E75",
+    "statusBar.background": "#DDD6C1",
+    "statusBar.foreground": "#584c27",
     "statusBar.debuggingBackground": "#B58900",
     "statusBar.debuggingForeground": "#FFFBF2",
     "statusBar.noFolderBackground": "#EEE8D5",
-    "statusBarItem.prominentBackground": "#DDD6C1",
-    "statusBarItem.prominentHoverBackground": "#DDD6C199",
+
+    "statusBarItem.hoverBackground": "#DDD6C1",
+    "statusBarItem.hoverForeground": "#B58900",
+    "statusBarItem.focusBorder": "#B58900",
+    "statusBarItem.compactHoverBackground": "#DDD6C1",
+
+    // "statusBarItem.prominentBackground": "#584c2799",
+    // "statusBarItem.prominentForeground": "#EEE8D5",
+    // "statusBarItem.prominentHoverBackground": "#B58900",
+    // "statusBarItem.prominentHoverForeground": "#EEE8D5",
 
     "editorGroupHeader.tabsBackground": "#DDD6C1",
     "tab.activeBackground": "#FDF6E3",
@@ -835,8 +853,8 @@
 
     "titleBar.activeBackground": "#DDD6C1",
     "titleBar.activeForeground": "#584c27",
-    "titleBar.inactiveBackground": "#EEE8D5",
-    "titleBar.inactiveForeground": "#AC9D57"
+    "titleBar.inactiveBackground": "#DDD6C1",
+    "titleBar.inactiveForeground": "#584c2799"
   },
   "uuid": "130e5195-c9e1-4f74-b5d4-c0ffe77192e5"
 }
