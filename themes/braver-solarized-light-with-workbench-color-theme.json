@@ -722,19 +722,77 @@
     }
   ],
   "colors": {
+    // Base colors
+    // https://code.visualstudio.com/api/references/theme-color#base-colors
+    "focusBorder": "#B58900",
     "foreground": "#584c27",
     "disabledForeground": "#657b83",
+    "widget.border": "#DDD6C1",
+    // widget.shadow
+    "selection.background": "#DFCA8866",
+    "descriptionForeground": "#584c27",
+    "errorForeground": "#dc322f",
+    "icon.foreground": "#584c27",
+    // sash.hoverBorder
+
+    // Window border
+    // https://code.visualstudio.com/api/references/theme-color#window-border
+    // ..
+
+    // Text colors
+    // https://code.visualstudio.com/api/references/theme-color#text-colors
+    // ..
+
+    // Action colors
+    // https://code.visualstudio.com/api/references/theme-color#action-colors
+    "toolbar.hoverBackground": "#DDD6C1",
+    "toolbar.hoverOutline": "#B58900",
+    "toolbar.activeBackground": "#DDD6C1",
+    "editorActionList.background": "#DDD6C1",
+    "editorActionList.foreground": "#584c27",
+    "editorActionList.focusBackground": "#DDD6C1",
+    "editorActionList.focusForeground": "#B58900",
+
+    // Button control
+    // https://code.visualstudio.com/api/references/theme-color#button-control
+    "button.background": "#B58900",
+    "button.foreground": "#EEE8D5",
+
+    // Dropdown control
+    // https://code.visualstudio.com/api/references/theme-color#dropdown-control
+    "dropdown.background": "#FDF6E3",
+    "dropdown.border": "#DDD6C1",
+    "dropdown.foreground": "#586E75",
+
+    // Input control
+    // https://code.visualstudio.com/api/references/theme-color#input-control
+    "input.background": "#FDF6E3",
+    "input.border": "#DDD6C1",
+    "input.foreground": "#586E75",
+    "input.placeholderForeground": "#586E75AA",
+    "inputOption.activeBorder": "#D3AF86",
+
+    // Scrollbar control
+    // https://code.visualstudio.com/api/references/theme-color#scrollbar-control
+    // "scrollbar.shadow": "",
+    "scrollbarSlider.activeBackground": "#B58900",
+    "scrollbarSlider.background": "#DDD6C1",
+    "scrollbarSlider.hoverBackground": "#B58900",
+
+    // Badge
+    // https://code.visualstudio.com/api/references/theme-color#badge
+    "badge.background": "#584c27",
+    "badge.foreground": "#EEE8D5",
+
+    // Progress bar
+    // https://code.visualstudio.com/api/references/theme-color#progress-bar
+    "progressBar.background": "#B58900",
 
     "activityBar.background": "#DDD6C1",
     "activityBar.foreground": "#584c27",
     "activityBar.inactiveForeground": "#584c2750",
     "activityBarBadge.background": "#584c27",
     "activityBarBadge.foreground": "#EEE8D5",
-
-    "badge.background": "#584c27",
-    "badge.foreground": "#EEE8D5",
-    "button.background": "#B58900",
-    "button.foreground": "#EEE8D5",
 
     "debugExceptionWidget.background": "#DDD6C1",
     "debugExceptionWidget.border": "#AB395B",
@@ -772,18 +830,6 @@
     "extensionButton.prominentBackground": "#b58900",
     "extensionButton.prominentHoverBackground": "#584c27aa",
 
-    "focusBorder": "#B58900",
-
-    "dropdown.background": "#FDF6E3",
-    "dropdown.border": "#DDD6C1",
-    "dropdown.foreground": "#586E75",
-
-    "input.background": "#FDF6E3",
-    "input.border": "#DDD6C1",
-    "input.foreground": "#586E75",
-    "input.placeholderForeground": "#586E75AA",
-    "inputOption.activeBorder": "#D3AF86",
-
     "list.activeSelectionBackground": "#DFCA88",
     "list.activeSelectionForeground": "#6C6C6C",
     "list.focusBackground": "#DFCA8866",
@@ -802,8 +848,7 @@
     "pickerGroup.border": "#2AA19899",
     "pickerGroup.foreground": "#2AA19899",
 
-    "progressBar.background": "#B58900",
-    "selection.background": "#DFCA8866",
+
 
     "sideBar.background": "#EEE8D5",
     "sideBarTitle.foreground": "#586E75",
