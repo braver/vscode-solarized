@@ -728,12 +728,10 @@
     "foreground": "#584c27",
     "disabledForeground": "#657b83",
     "widget.border": "#ddd6c1",
-    // widget.shadow
     "selection.background": "#dfca8866",
     "descriptionForeground": "#584c27",
     "errorForeground": "#dc322f",
     "icon.foreground": "#584c27",
-    // sash.hoverBorder
 
     // Window border
     // https://code.visualstudio.com/api/references/theme-color#window-border

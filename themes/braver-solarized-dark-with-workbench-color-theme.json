@@ -723,18 +723,37 @@
   "colors": {
     // Base colors
     // https://code.visualstudio.com/api/references/theme-color#base-colors
-    "focusBorder": "#2AA19899",
+    "focusBorder": "#2AA198",
     "foreground": "#93A1A1",
-    "selection.background": "#2AA19899",
-    "errorForeground": "#ffeaea",
+    "disabledForeground": "#657b83",
+    "widget.border": "#003847",
+    "selection.background": "#2AA198",
+    "descriptionForeground": "#584c27",
+    "errorForeground": "#dc322f",
+    "icon.foreground": "#93A1A1",
+
+    // Window border
+    // https://code.visualstudio.com/api/references/theme-color#window-border
+    // ..
+
+    // Text colors
+    // https://code.visualstudio.com/api/references/theme-color#text-colors
+    // ..
 
     // Action colors
     // https://code.visualstudio.com/api/references/theme-color#action-colors
     "toolbar.hoverBackground": "#004052",
+    "toolbar.hoverOutline": "#2AA198",
+    "toolbar.activeBackground": "#003847",
+    "editorActionList.background": "#003847",
+    "editorActionList.foreground": "#93A1A1",
+    "editorActionList.focusBackground": "#003847",
+    "editorActionList.focusForeground": "#2AA198",
 
     // Button control
     // https://code.visualstudio.com/api/references/theme-color#button-control
-    "button.background": "#2AA19899",
+    "button.background": "#2AA198",
+    "button.foreground": "#002B36",
 
     // Dropdown control
     // https://code.visualstudio.com/api/references/theme-color#dropdown-control
