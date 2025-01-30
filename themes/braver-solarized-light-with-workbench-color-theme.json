@@ -768,7 +768,7 @@
     "input.border": "#ddd6c1",
     "input.foreground": "#586e75",
     "input.placeholderForeground": "#586e75AA",
-    "inputOption.activeBorder": "#d3af86",
+    "inputOption.activeBorder": "#b58900",
 
     // Scrollbar control
     // https://code.visualstudio.com/api/references/theme-color#scrollbar-control
@@ -789,7 +789,7 @@
     // Lists and trees
     // https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     "list.activeSelectionBackground": "#ddd6c1",
-    "list.activeSelectionForeground": "#6c6c6c",
+    "list.activeSelectionForeground": "#584c27",
     "list.inactiveSelectionBackground": "#ddd6c1AA",
     "list.focusBackground": "#ddd6c1",
     "list.highlightForeground": "#b58900",
@@ -838,26 +838,27 @@
     "editor.findMatchBackground": "#85990033",
     "editor.findMatchHighlightBackground": "#8599001A",
     "editor.findRangeHighlightBackground": "#6c71c433",
+    "editor.foldBackground": "#3f3d380A",
     "editor.foreground": "#657b83",
     "editor.hoverHighlightBackground": "#2aa1981A",
     "editor.inactiveSelectionBackground": "#93a1a126",
     "editor.lineHighlightBackground": "#3f3d380A",
-    "editor.foldBackground": "#3f3d380A",
-    "editorLineNumber.foreground": "#93a1a1",
-    "editorLineNumber.activeForeground": "#657b83",
-    "editorLineNumber.dimmedForeground": "#ddd6c1",
     "editor.rangeHighlightBackground": "#6c71c41A",
     "editor.selectionBackground": "#93a1a140",
     "editor.selectionHighlightBackground": "#2aa1981A",
     "editor.wordHighlightBackground": "#268bd21A",
     "editor.wordHighlightStrongBackground": "#268bd233",
 
+    "editorLineNumber.foreground": "#93a1a1",
+    "editorLineNumber.activeForeground": "#657b83",
+    "editorLineNumber.dimmedForeground": "#ddd6c1",
+
     "editorCursor.foreground": "#657b83",
-    "editorIndentGuide.background1": "#3f3d3812",
     "editorIndentGuide.activeBackground1": "#ddd6c1",
+    "editorIndentGuide.background1": "#3f3d3812",
     "editorLink.activeForeground": "#268bd2",
-    "editorWhitespace.foreground": "#eee8d5",
     "editorRuler.foreground": "#3f3d3812",
+    "editorWhitespace.foreground": "#ddd6c1",
 
     // Diff editor colors
     // https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
@@ -885,6 +886,8 @@
 
     "editorHoverWidget.background": "#eee8d5",
     "editorHoverWidget.border": "#ddd6c1",
+
+    "editorStickyScrollHover.background": "#eee8d5",
 
     // Peek view colors
     // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
