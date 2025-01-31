@@ -957,14 +957,14 @@
 
     // Extensions colors
     // https://code.visualstudio.com/api/references/theme-color#extensions-colors
-    "extensionButton.prominentBackground": "#b58900",
+    "extensionButton.prominentBackground": "#2aa198",
     "extensionButton.prominentHoverBackground": "#584c27aa",
 
     // Quick picker colors
     // https://code.visualstudio.com/api/references/theme-color#quick-picker-colors
     "pickerGroup.border": "#2aa19899",
     "pickerGroup.foreground": "#2aa19899",
-    "quickInputList.focusBackground": "#dfca8866",
+    // "quickInputList.focusBackground": "#dfca8866",
 
     // Keybinding label colors
     // https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
