@@ -995,11 +995,70 @@
     "terminal.ansiBrightCyan": "#93a1a1",
     "terminal.ansiBrightWhite": "#fdf6e3",
 
-        // Debug colors
+    // Debug colors
     // https://code.visualstudio.com/api/references/theme-color#debug-colors
     "debugToolBar.background": "#00212B",
     "debugExceptionWidget.background": "#00212B",
     "debugExceptionWidget.border": "#AB395B",
+
+    // Testing colors
+    // https://code.visualstudio.com/api/references/theme-color#testing-colors
+    // ..
+
+    // Welcome page colors
+    // https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+    // "walkThrough.embeddedEditorBackground": "#00000014",
+
+    // Git colors
+    // https://code.visualstudio.com/api/references/theme-color#git-colors
+    // ..
+
+    // Source Control Graph colors
+    // https://code.visualstudio.com/api/references/theme-color#source-control-graph-colors
+    // ..
+
+    // Settings Editor colors
+    // https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+    // ..
+
+    // Breadcrumbs colors
+    // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
+    // ..
+
+    // Snippets colors
+    // https://code.visualstudio.com/api/references/theme-color#snippets-colors
+    // ..
+
+    // Symbol Icons colors
+    // https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+    // ..
+
+    // Debug Icons colors
+    // https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
+
+    // Notebook colors
+    // https://code.visualstudio.com/api/references/theme-color#notebook-colors
+    "notebook.cellEditorBackground": "#fdf6e3",
+
+    // Chart colors
+    // https://code.visualstudio.com/api/references/theme-color#chart-colors
+    // ..
+
+    // Ports Colors
+    // https://code.visualstudio.com/api/references/theme-color#ports-colors
+    "ports.iconRunningProcessForeground": "#2aa198",
+
+    // Comments View colors
+    // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
+    // ..
+
+    // Action Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    // ..
+
+    // Simple Find Widget
+    // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
+    // ..
   },
   "uuid": "5815b34d-fb7d-4593-bf0c-4f41f8b1f0a9"
 }
