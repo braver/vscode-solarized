@@ -1,45 +1,48 @@
 {
-    "name": "vscode-solarized",
-    "displayName": "Braver's Solarized",
-    "description": "The best Solarized theme for VS Code",
-    "version": "2.0.2",
-    "publisher": "Braver",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/braver/vscode-solarized.git"
-    },
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "logo.png",
-    "galleryBanner": {
-        "color": "#fdf6e3"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Braver's Solarized Light",
-                "uiTheme": "vs",
-                "path": "./themes/braver-solarized-light-color-theme.json"
-            },
-            {
-                "label": "Braver's Solarized Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/braver-solarized-dark-color-theme.json"
-            },
-            {
-                "label": "Braver's Solarized Light (themed workbench)",
-                "uiTheme": "vs",
-                "path": "./themes/braver-solarized-light-with-workbench-color-theme.json"
-            },
-            {
-                "label": "Braver's Solarized Dark (themed workbench)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
-            }
-        ]
-    }
+	"name": "vscode-solarized",
+	"displayName": "Braver's Solarized",
+	"description": "The best Solarized theme for VS Code",
+	"version": "2.1.0",
+	"publisher": "Braver",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/braver/vscode-solarized.git"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#fdf6e3"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Braver's Solarized Light",
+				"uiTheme": "vs",
+				"path": "./themes/braver-solarized-light-color-theme.json"
+			},
+			{
+				"label": "Braver's Solarized Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/braver-solarized-dark-color-theme.json"
+			},
+			{
+				"label": "Braver's Solarized Light (themed workbench)",
+				"uiTheme": "vs",
+				"path": "./themes/braver-solarized-light-with-workbench-color-theme.json"
+			},
+			{
+				"label": "Braver's Solarized Dark (themed workbench)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 862118
+	}
 }

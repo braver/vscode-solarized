@@ -3,27 +3,29 @@
   "settings": [
     {
       "settings": {
+        "activeLinkForeground": "#268bd2",
         "background": "#FDF6E3",
         "caret": "#073642",
         "foreground": "#657b83",
+        "guide": "#3F3D3812",
         "gutter": "#eee8d5",
         "invisibles": "#eee8d5",
-        "invisible": "#eee8d5",
-        "lineHighlight": "#3F3D3812",
-        "selection": "#93a1a140",
+
         "inactiveSelection": "#93a1a126",
+        "selection": "#93a1a140",
         "selectionBorder": "#c0c4bb",
-        "guide": "#3F3D3812",
-        "activeLinkForeground": "#268bd2",
         "selectionHighlight": "#2aa1981A",
-        "hoverHighlight": "#2aa1981A",
-        "findMatchHighlight": "#85990033",
+
         "currentFindMatchHighlight": "#8599004D",
-        "wordHighlight": "#d336821A",
-        "wordHighlightStrong": "#d3368233",
-        "referenceHighlight": "#d336824D",
+        "findMatchHighlight": "#85990033",
+        "findRangeHighlight": "#6c71c433",
+        "hoverHighlight": "#2aa1981A",
+        "lineHighlight": "#3F3D3812",
         "rangeHighlight": "#6c71c41A",
-        "findRangeHighlight": "#6c71c433"
+        "referenceHighlight": "#d336821A",
+
+        "wordHighlight": "#d3368200",
+        "wordHighlightStrong": "#d336821A",
       }
     },
     {
@@ -735,118 +737,6 @@
       "scope": "meta.paragraph.markdown meta.dummy.line-break",
       "settings": {
         "background": "#eee8d5"
-      }
-    },
-    {
-      "name": "SublimeLinter Annotations",
-      "scope": "sublimelinter.notes",
-      "settings": {
-        "foreground": "#eee8d5"
-      }
-    },
-    {
-      "name": "SublimeLinter Error Outline",
-      "scope": "sublimelinter.outline.illegal",
-      "settings": {
-        "foreground": "#93a1a1"
-      }
-    },
-    {
-      "name": "SublimeLinter Error Underline",
-      "scope": "sublimelinter.underline.illegal",
-      "settings": {
-        "background": "#dc322f"
-      }
-    },
-    {
-      "name": "SublimeLinter Warning Outline",
-      "scope": "sublimelinter.outline.warning",
-      "settings": {
-        "foreground": "#839496"
-      }
-    },
-    {
-      "name": "SublimeLinter Warning Underline",
-      "scope": "sublimelinter.underline.warning",
-      "settings": {
-        "background": "#b58900"
-      }
-    },
-    {
-      "name": "SublimeLinter Violation Outline",
-      "scope": "sublimelinter.outline.violation",
-      "settings": {
-        "foreground": "#657b83"
-      }
-    },
-    {
-      "name": "SublimeLinter Violation Underline",
-      "scope": "sublimelinter.underline.violation",
-      "settings": {
-        "background": "#cb4b16"
-      }
-    },
-    {
-      "name": "SublimeLinter Warning",
-      "scope": "sublimelinter.mark.warning",
-      "settings": {
-        "foreground": "#b58900"
-      }
-    },
-    {
-      "name": "SublimeLinter Error",
-      "scope": "sublimelinter.mark.error",
-      "settings": {
-        "foreground": "#dc322f"
-      }
-    },
-    {
-      "name": "SublimeLinter Gutter Mark",
-      "scope": "sublimelinter.gutter-mark",
-      "settings": {
-        "foreground": "#657b83"
-      }
-    },
-    {
-      "name": "SublimeBracketHighlighter",
-      "scope": "brackethighlighter.all",
-      "settings": {
-        "foreground": "#93a1a1"
-      }
-    },
-    {
-      "name": "Find In Files: File Name",
-      "scope": "entity.name.filename.find-in-files",
-      "settings": {
-        "foreground": "#2aa198"
-      }
-    },
-    {
-      "name": "Find In Files: Line numbers",
-      "scope": "constant.numeric.line-number.find-in-files",
-      "settings": {
-        "foreground": "#93a1a1"
-      }
-    },
-    {
-      "name": "GitGutter deleted",
-      "scope": "markup.deleted.git_gutter",
-      "settings": {
-        "foreground": "#dc322f"
-      }
-    },
-    {
-      "name": "GitGutter inserted",
-      "scope": "markup.inserted.git_gutter",
-      "settings": {
-        "foreground": "#859900"
-      }
-    },
-    {
-      "name": "GitGutter changed",
-      "scope": "markup.changed.git_gutter",
-      "settings": {
-        "foreground": "#b58900"
       }
     },
     {
