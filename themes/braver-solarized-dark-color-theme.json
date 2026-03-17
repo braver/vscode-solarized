@@ -29,6 +29,7 @@
       "name": "Comment",
       "scope": [
         "comment",
+        "string.quoted.docstring",
         "meta.documentation"
       ],
       "settings": {
